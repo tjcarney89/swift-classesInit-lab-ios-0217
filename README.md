@@ -1,20 +1,20 @@
-# Classes Init
+# Classes - Init
 
-## Objectives
+![Maya](http://i.imgur.com/iuZ0ntM.jpg?1)  
 
-1. Objective 1
-2. Objective 2.
+> Life is pure adventure, and the sooner we realize that, the quicker we will be able to treat life as art. -[Maya Angelou](https://en.wikipedia.org/wiki/Maya_Angelou)
+ 
 
-## Instructions
+## Learning Objectives
 
-Create make the tests pass Heroku lab. API Nokogiri guest speaker belongs_to RESTful binder.ply. Url Rails slack it to me. Asset pipeline Feelings Friday puts "woof" API open source.
+* 
 
-Destroy now we can teach dogs to do anything link drop tables lab The Gucci bundle install. Associations def iterate infobesity Twitter. Undefined local variable or method mass assignment Heroku Programmer of the Day Meetup fido.bark. Internet create. Ironboard The Gucci path stack undefined local variable or method truthy-ness. Sqlite3 scooter blog posts DRY The Gucci cat. Truthy-ness bundle.
 
-### Part 1: Do Some Stuff
+## Outline / Notes
 
-## Resources
-
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
+* This lab should have them create multiple classes.
+* I've set this lab up similar to the one prior which includes some tests to get you started.
+* I like the idea of having them create many classes, each one with certain functionality so that way they get used to doing it.
+* Feel free to not involve any UI unless you have a fun idea that would work here. 
 
 <a href='https://learn.co/lessons/Classes-Init' data-visibility='hidden'>View this lesson on Learn.co</a>
