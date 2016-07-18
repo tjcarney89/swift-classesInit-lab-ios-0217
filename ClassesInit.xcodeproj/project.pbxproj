@@ -109,8 +109,7 @@
 		5BC2540E1D3D7FF00054AE5A /* ClassesInitTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BC2540F1D3D7FF00054AE5A /* ClassesInitTests.swift */,
-				5BC254111D3D7FF00054AE5A /* Info.plist */,
+				5BC2541B1D3D80FC0054AE5A /* Supporting Files */,
 			);
 			path = ClassesInitTests;
 			sourceTree = "<group>";
@@ -123,6 +122,15 @@
 				5BC254011D3D7FF00054AE5A /* Assets.xcassets */,
 				5BC254031D3D7FF00054AE5A /* LaunchScreen.storyboard */,
 				5BC254061D3D7FF00054AE5A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BC2541B1D3D80FC0054AE5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC2540F1D3D7FF00054AE5A /* ClassesInitTests.swift */,
+				5BC254111D3D7FF00054AE5A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
