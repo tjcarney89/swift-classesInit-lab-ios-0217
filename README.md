@@ -1,14 +1,12 @@
-# Classes - Init
+# Classes
 
 ![Maya](http://i.imgur.com/iuZ0ntM.jpg?1)  
 
 > Life is pure adventure, and the sooner we realize that, the quicker we will be able to treat life as art. -[Maya Angelou](https://en.wikipedia.org/wiki/Maya_Angelou)
- 
 
 ## Learning Objectives
 
-* 
-
+* Complete this lab
 
 ## Outline / Notes
 
