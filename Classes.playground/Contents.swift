@@ -18,6 +18,13 @@ import Foundation
  */
 // write your code here
 
+
+
+
+
+
+
+// Test
 let person = Person(firstName: "Alice", lastName: "Johnson")
 assert(person.firstName == "Alice", person.firstName)
 assert(person.lastName == "Johnson", person.lastName)
@@ -30,6 +37,10 @@ assert(person.lastName == "Johnson", person.lastName)
  
  You can add this property to the class definition you wrote in Question #1.
  */
+
+
+
+// Test
 assert(person.fullName == "Alice Johnson", person.fullName)
 
 /*: section3
@@ -40,6 +51,14 @@ assert(person.fullName == "Alice Johnson", person.fullName)
  
  You can add this method to the class definition you wrote in Question #1.
  */
+
+
+
+
+
+
+
+// Test
 let friend = Person(firstName: "Phil", lastName: "Davies")
 var greeting = person.greet(friend)
 assert(greeting == "Hello, Phil!", greeting)
@@ -64,6 +83,16 @@ extension Double {
 
 // write your code here
 
+
+
+
+
+
+
+
+
+
+// Test
 let transaction1 = Transaction(type: "in", amount: 10.0)
 assert(transaction1.type == "in", transaction1.type)
 assert(transaction1.amount == 10.0, "\(transaction1.amount)")
@@ -79,6 +108,17 @@ assert(transaction2.amount == 1.2, "\(transaction2.amount)")
  
  Note that formatting `Double`s so they have two decimal places (like money) can be a bit difficult, so a method has been added to the `Double` class for you to help you with that. Assuming `amount` is a double, you can call `double.toMoney` to get a string that formats the `Double` to two decimal places.
  */
+
+
+
+
+
+
+
+
+
+
+// Test
 assert(transaction1.description == "Transaction: credit in the amount of $10.00", transaction1.description)
 assert(transaction2.description == "Transaction: debit in the amount of $1.20", transaction2.description)
 
@@ -94,6 +134,16 @@ assert(transaction2.description == "Transaction: debit in the amount of $1.20", 
  */
 // write your code here
 
+
+
+
+
+
+
+
+
+
+// Test
 let personBankAccount = BankAccount(owner: person)
 assert(personBankAccount.owner.fullName == "Alice Johnson", personBankAccount.owner.fullName)
 assert(personBankAccount.transactions.isEmpty)
@@ -104,6 +154,18 @@ assert(personBankAccount.transactions.isEmpty)
  
  You need a way to for people to add money to their bank account. In the `BankAccount` class you created in Question #6, add a method called `deposit(_:)`. This method should take a `Double` representing the amount to be deposited into the account as a parameter. It should create a new `Transaction` object representing the deposit and add it to the `BankAccount`'s `transactions` array. This method does not need to return anything.
  */
+
+
+
+
+
+
+
+
+
+
+
+// Test
 personBankAccount.deposit(100.0)
 assert(personBankAccount.transactions.count == 1, "\(personBankAccount.transactions.count)")
 personBankAccount.deposit(10.0)
@@ -115,6 +177,17 @@ assert(personBankAccount.transactions.count == 2, "\(personBankAccount.transacti
  
  The owner of the account also needs a way to take money out of their bank account. In the `BankAccount` class you created in Question #6, add a method called `withdraw(_:)`. This method should take a `Double` representing the amount to be withdrawn from the account as a parameter. It should create a new `Transaction` object representing the withdrawal and add it to the `BankAccount`'s `transactions` array. This method does not need to return anything.
  */
+
+
+
+
+
+
+
+
+
+
+// Test
 personBankAccount.withdraw(25.0)
 assert(personBankAccount.transactions.count == 3, "\(personBankAccount.transactions.count)")
 personBankAccount.withdraw(10.5)
@@ -128,6 +201,16 @@ assert(personBankAccount.transactions.count == 4, "\(personBankAccount.transacti
  
  Remember that "in" transactions count as money coming in, and "out" transactions count as money going out.
  */
+
+
+
+
+
+
+
+
+
+// Test
 assert(personBankAccount.balance == 74.5, personBankAccount.balance.toMoney)
 
 /*: finale
