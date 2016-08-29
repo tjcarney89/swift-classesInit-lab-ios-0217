@@ -1,4 +1,4 @@
-# Classes
+# Classes and Properties Lab 
 
 ![Maya](http://i.imgur.com/iuZ0ntM.jpg?1)  
 
